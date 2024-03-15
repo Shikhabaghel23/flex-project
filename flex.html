@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Denices Header Example</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <style>
+    .custom-header {
+      background-color:seagreen;
+      width: 100%;
+      height: 50px;
+      padding: 20px;
+      text-align: start;
+      box-sizing: border-box;
+    }
+    .head{
+      height: 50px; 
+      width: 100%;
+      text-align: center;
+      background-color: rgb(46, 165, 165);
+      /* margin-top: 10px; */
+    }
+
+    .custom-header .container {
+      /* max-width: 800px; */
+      width: 100%;
+      height: 100%;
+      margin: 0 auto;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-evenly;
+      align-items: flex-start;
+    }
+    
+    .custom-header h1 {
+      font-size: 10px;
+      margin-bottom: 2px;
+    }
+
+    .custom-header h2 {
+      font-size: 10px;
+      margin-bottom: 2px;
+      align-items: center;
+    }
+    .custom-header button{
+       justify-items: flex-end;
+    }
+  </style><br>
+  
+</head>
+<body>
+  <header class="custom-header">
+    <div class="container">
+      <h>FLOAT, POSITION & FLEX</h>
+      <h>Home About Service</h>
+      <button type="button">Signup</button>
+      <button type="button">Login</button>
+  </div>
+</header>
+<style>
+  .custom-box {
+    background-color: rgb(46, 165, 165);
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    gap: 120px; 
+    
+  }
+  .p {
+    text-align: center;
+  }
+.item {
+     height: 300px;
+     width: 300px;
+     text-align: center;
+     top: 50px;
+     position: relative;
+     left: 30px;
+     border: 5px solid orangered;
+     /* justify-items: 30px;  */
+} 
+.item{
+  order: 1;
+  justify-content: center;
+}
+.item{
+  order: 2;
+}
+.item{
+  order: 3;
+}
+.box {
+  height: 80px;
+  width: 80px;
+  margin: 3px;
+  border: 2px solid yellow;
+  border-radius: 10px;
+  justify-items: center;
+  gap: 10px;
+  position: relative;
+  left: 100px;
+  top: 18px;
+}
+.box{
+  text-align: center;
+  color: white;
+}
+.box1 {
+      order: 1;
+      text-align: center;
+      background-color: rgb(74, 74, 189);
+      position: relative;
+      left: 35%;
+}
+.box2 {
+      order: 2;
+      background-color: rgb(77, 134, 134);
+      position: relative; 
+      left: 35%;
+}
+.box3 {
+      order: 3;
+      background-color: rgb(74, 74, 189);
+      position: relative;
+      left: 35%;
+}
+/* .box4{
+  order: 1;
+  background-color: rgb(74, 74, 189);
+  position: relative;
+  left: 35%;
+}
+.box5{
+  order: 2;
+  background-color: rgb(74, 74, 189);
+  position: relative;
+  left: 35%;
+}
+.box6 {
+  order: 3;
+  background-color: rgb(74, 74, 189);
+  position: relative;
+  right: 90%;
+} */
+.custom-box1 {
+    width: 100%;
+    height: 650px;
+    justify-content: space-evenly;
+    display: flex;
+    flex-direction: row;
+    gap: 130px; 
+    border-color: 2px solid black;
+    /* background-color: antiquewhite; */
+}
+.id {
+     height: 300px; 
+     width: 300px;
+     border: 4px solid purple;
+     /* position: relative; */
+     left: 30%;
+}
+.item-7 {
+ overflow: auto;
+ position: absolute;
+ left:38%;
+ top:920px;
+ 
+}
+.item-7 .box-4 {
+  background-color: rgb(74, 74, 189);
+  position: sticky;
+  color:rgb(227, 222, 222);
+  bottom: 120px;
+  left: 80px;
+  margin: 6%;
+ /* position: fixed; */
+  /* margin: 50% 50% 40% 30%; */
+}
+
+.heading{
+  height: 50px; 
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  /* background-color: antiquewhite; */
+
+}
+.custom-box2 {
+  background-color: rgb(46, 165, 165); 
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.heading-1 {
+  height: 50px; 
+  width: 100%;
+  margin-top: 20px;
+  text-align: center;
+  top: 5px;
+}  
+.square {
+  height: 80px;
+  width: 80px;
+  margin: 2px;
+  border-radius: 10px;
+  border: 2px solid yellow;
+  margin: 2px 40% 2px 45%;
+  text-align: center;
+  background-color: rgb(74, 74, 189);
+  gap: 5px;
+  color: white;
+}
+.custom-box3 {
+  background-color:  rgb(46, 165, 165);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  position: relative;
+  gap: 4px;
+
+}
+.square-box {
+  height: 80px;
+  width: 80px;
+  border: 2px solid yellow;
+  text-align: center;
+  /* display: flex; */
+  border-radius: 10px;
+  background-color: rgb(74, 74, 189);
+  text-align: center;
+  position: relative;
+  top: 5px;
+  margin: 2px;
+  /* gap: 10px; */
+  color: white;
+}
+.custom-box4 {
+  background-color:  rgb(46, 165, 165);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 8px; 
+}
+.parent {
+  height: 80px;
+  width: 80px;
+  border: 2px solid yellow;
+  text-align: center;
+  /* display: flex; */
+  border-radius: 10px;
+  background-color: rgb(74, 74, 189);
+  text-align: center;
+  position: relative;
+  top: 10px; 
+  color: white;
+}
+.custom-box5 {
+  background-color:  rgb(46, 165, 165);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 750px;
+}
+.child {
+  height: 80px;
+  width: 80px;
+  border: 2px solid yellow;
+  text-align: center;
+  /* display: flex; */
+  border-radius: 10px;
+  background-color: rgb(74, 74, 189);
+  text-align: center;
+  position: relative;
+  top: 15px; 
+  color: white;
+}
+.custom-box6 {
+  background-color:  rgb(46, 165, 165);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 5px;
+}
+.fath {
+  height: 80px;
+  width: 80px;
+  border: 2px solid yellow;
+  text-align: center;
+  /* display: flex; */
+  border-radius: 10px;
+  background-color: rgb(74, 74, 189);
+  text-align: center;
+  position: relative;
+  top: 20px; 
+  color: white;
+}
+.custom-box7 {
+  background-color:  rgb(46, 165, 165);
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 130px;
+  /* margin-top: 50px; */
+}
+.math {
+  height: 80px;
+  width: 80px;
+  border: 2px solid yellow;
+  text-align: center;
+  /* display: flex; */
+  border-radius: 10px;
+  background-color: rgb(74, 74, 189);
+  text-align: center;
+  position: relative;
+  top: 45px;
+  color: white; 
+}
+.square-28 {
+  height: 80px;
+  width:555px ;
+}
+.custom-box8 {
+  background-color:  rgb(46, 165, 165);
+  width: 100%;
+  height: 180px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 130px;
+}
+.baby {
+  height: 80px;
+  width: 80px;
+  border: 2px solid yellow;
+  text-align: center; 
+  border-radius: 10px;
+  position: relative;
+  top: 75px;
+  background-color: rgb(74, 74, 189);
+  color: white;
+}
+
+nav{
+  background: purple;
+  height:45px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  gap:10px;
+  color: orange;
+}
+i:hover{
+  color: black;
+}
+button:hover{
+  background-color:red;
+}
+
+
+</style>
+    <body>
+      <div class="head">POSITIONING ELEMENTS USING FLOATS</div>
+      <header class="custom-box">
+          <div class="item item-1">
+            <div class="box box1">Section1</div>
+            <div class="box box2">Section2</div>
+            <div class="box box3">Section1</div>
+          </div>
+          <div class="item item-2">
+            <div class="box box1">Section1</div>
+            <div class="box box2">Section2</div>
+            <div class="box box3">Section1</div>
+          </div>
+          <div class="item item-3">
+            <div class="box box1">Section1</div>
+            <div class="box box2">Section2</div>
+            <div class="box box3">Section1</div>
+          </div>
+    </body>
+  </header>
+  <div class="heading"> UNIQUELY POSITIONING CONTENT</div>
+      <header class="custom-box1">
+        <div class="id item-4">
+          <div class="box box1">Section1</div>
+          <div class="box box2">Section2</div>
+          <div class="box box3">Section1</div> 
+        </div>
+        <div class="id item-5">
+          <div class="box box1">Section1</div>
+          <div class="box box2">Section2</div>
+          <div class="box box3">Section1</div>
+        </div>
+        <div class="id item-6">
+          <div class="box box1">Section1</div>
+          <div class="box box2">Section2</div>
+          <div class="box box3">Section1</div>
+        <br>
+        <div class="id item-7">
+          <P>Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+             Mauris ullamcorper malesuada odio. Nulla facilisi.
+            Sed consectetur porta consectetur. Praesent euismod ex vel dapibus mattis.
+            Quisque risus diam, porttitor non metus molestie, tincidunt feugiat nibh.
+            Aenean est felis, ornare vitae tellus venenatis, efficitur blandit ex.
+            Aliquam erat volutpat. Maecenas ullamcorper tristique massa sit amet volutpat.
+            Nulla dapibus enim eget quam elementum, varius sollicitudin enim bibendum. 
+            Phasellus eu maximus risus, nec interdum risus. Sed scelerisque ligula tempor ex egestas, non malesuada nisl gravida.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi est mi, mattis eu mauris
+            Mauris felis ligula, viverra eget sapien non, egestas consectetur velit. Aliquam erat volutpat.
+            Pellentesque ut nibh ut lorem pretium vestibulum eu ullamcorper nisi. Cras dignissim mattis sapien.
+            Phasellus venenatis tellus turpis, ut ullamcorper metus feugiat a. Nulla a lorem posuere, sodales lorem eu,
+            porta massa. Donec dapibus purus vitae ligula semper convallis. Sed fermentum ut nisl eu faucibus.
+            In ac porta nibh, sit amet pulvinar nibh. Vestibulum pellentesque dui sit amet lectus condimentum,
+            vitae dignissim diam posuere. Nulla facilisi. Proin pharetra blandit lobortis. Vivamus porta eget diam a fringilla.
+            Morbi sed mattis metus. Curabitur semper dapibus velit, in commodo arcu finibus vitae.
+            Ut venenatis nunc magna, id fringilla purus bibendum in. Suspendisse sit amet risus et mauris molestie venenatis. 
+            Phasellus hendrerit eu magna nec hendrerit. Quisque tincidunt eros eu erat viverra volutpat.
+            Cras ullamcorper nulla non mauris lobortis congue. In sit amet sapien facilisis, tincidunt tellus sit amet, luctus neque. 
+            Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas
+            Suspendisse faucibus rhoncus nisi efficitur porta. Nullam mollis orci sed luctus maximus. Nunc condimentum, massa sed varius eleifend,
+            dolor purus aliquam erat, et scelerisque nunc felis id quam. Aliquam erat volutpat. Pellentesque vitae tellus ut mauris laoreet euismod.
+            Ut finibus efficitur feugiat. Sed in tellus congue, dignissim elit vitae, ornare lorem. Morbi viverra dolor ut risus eleifend,
+            nec luctus lectus aliquam. Sed id iaculis metus.
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+            Pellentesque diam risus, sagittis at magna tristique, auctor rhoncus dolor.
+            Pellentesque sagittis nulla facilisis ex ullamcorper vestibulum. Nulla ac hendrerit turpis, ut dignissim arcu.
+            Vestibulum in ipsum consectetur, fringilla dolor vitae, luctus lectus. Cras interdum ullamcorper pretium.
+            Phasellus semper laoreet arcu, in tincidunt nisi mollis in. Suspendisse et orci velit.
+          </P>
+          <div class="box box-4">Section1</div>
+      </header>
+      <div>
+      <div class="custom-box2">
+      <div class="heading-1">POSITIONING WITH FLEX</div>
+      <div class="square square-1">item 1</div>
+      <div class="square square-2">item 2</div>
+      <div class="square square-3">item 3</div>
+      <div class="square square-4">item 4</div>
+      </div>
+      <div class="custom-box3">
+      <div class="square-box square-5">item 1</div>
+      <div class="square-box square-6">item 2</div>
+      <div class="square-box square-7">item 3</div>
+      <div class="square-box square-8">item 4</div>
+      <div class="square-box square-9">item 5</div> 
+      <div class="square-box square-10">item 6</div>
+      <div class="square-box square-11">item 7</div>
+      <div class="square-box square-12">item 8</div>
+      <div class="square-box square-13">item 9</div>
+      <div class="square-box square-14">item 10</div>
+      </div>
+      <div class="custom-box4">
+      <div class="parent square-15">item 11</div>
+      <div class="parent square-16">item 12</div>
+      <div class="parent square-17">item 13</div>
+      <div class="parent square-18">item 14</div>
+      <div class="parent square-19">item 15</div>
+      <div class="parent square-20">item 16</div>
+      <div class="parent square-21">item 17</div>
+      <div class="parent square-22">item 18</div>
+      <div class="parent square-23">item 19</div>
+      <div class="parent square-24">item 20</div>
+      </div>
+      <div class="custom-box5">
+      <div class="child square-25">item 21</div>
+      <div class="child square-26">item 22</div>
+      </div>
+      <div class="custom-box6">
+      <div class="fath square-26">item 1</div>
+      <div class="fath square-27">item 2</div>
+      <div class="fath square-28">item 3</div>
+      <div class="fath square-29">item 4</div>
+      <div class="fath square-30">item 5</div>
+      </div>
+      <div class="custom-box7">
+      <div class="math square-31">item 1</div>
+      <div class="math square-32">item 2</div>
+      <div class="math square-33">item 3</div>
+      <div class="math square-34">item 4</div>
+      <div class="math square-35">item 5</div>
+      </div>
+      <div class="custom-box8">
+      <div class="baby baby-36">item 1</div>
+      </div>
+      </div>
+      </div>
+      <nav>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-linkedin"></i>
+        <i class="fa-brands fa-youtube"></i>
+      </nav>
+</body>
+</html
